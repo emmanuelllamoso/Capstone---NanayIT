@@ -1,0 +1,41 @@
+1. Welcome (Set the Stage) 
+
+"Thank you very much for giving some of your time to answer our questionnaires."
+
+We are the group of LookBahay and we are trying to make and develop a website 
+that offers an easy and convenient way to get a boarding house or apartment 
+in Lucban, Quezon. 
+
+Looking for a decent and reliable place to live is hard nowadays, one of the reason is
+the impact of the pandemic most of the boarding houses in lucban were closed.
+Even each of the members of our group get struggles on looking for a boarding house, but hopefully 
+with the help of our colleauges we've able get to one. That's where we get our idea, what if we build a website
+with the lists all the available boarding houses/apartments in lucban quezon. 
+ 
+2 Collect Demographics(Test Customer segment)
+
+Are you a renter? 
+Are you a student?
+Is it your first time renting a boarding house/apartment? 
+If 'yes', do you struggle while looking for your boarding house/apartment?
+
+Are you satisfied with your apartment/boarding house? 
+if(no) What are the problems you encounter and hate the most? 
+
+4. Demo (Test Solution) 
+//Dine ay ilalagay lang yung mock up(website) kahit siguro video or photo ganon 
+
+Do you think the website can solve the problem of the boarding house/apartment seekers? 
+
+What do you think about the other products(utensils, colgate and other things that the boarders might need),
+should we remove it or no?
+
+5. Test Pricing 
+ 
+Is the price fair enough considering convenience that the website can provide?
+ 
+
+
+
+
+

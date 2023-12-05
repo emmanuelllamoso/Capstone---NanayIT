@@ -14,7 +14,7 @@ body{
     color: rgb(219, 199, 237);
 }
 .container{
-    position: absolute;
+    position: fixed;
     top: 50px;
     margin-left: 300px;
     margin-right: 0;

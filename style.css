@@ -1,5 +1,6 @@
 body{
     background-color: rgb(245, 245, 245);
+    overflow-x: hidden;
 }
 .nanay-it{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -14,7 +15,7 @@ body{
     color: rgb(219, 199, 237);
 }
 .container{
-    position: fixed;
+    position: absolute;
     top: 50px;
     margin-left: 300px;
     margin-right: 0;

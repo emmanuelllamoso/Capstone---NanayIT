@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do - List</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nanay-it position-fixed">
+        <h5>NANAYS IN I.T. -> CAPSTONE 
+            <br><em>Todo-List</em>
+        </h5>
+        
+    </div>
+
+    <aside class="position-fixed">
+        <div class="photo mt-5 text-center">
+            <img src="mini.jpg" class="rounded-circle" width="100" alt="...">
+            <p contenteditable="true" style="color: rgb(129, 121, 129); font-weight: bold;"><em>Mini Mouse</em></p>
+        </div>
+        
+
+        <div class="menus position-relative" style="top: 20px;"> 
+            <a class="text-decoration-none menu-btn" href="">
+                <div class="d-flex justify-content-start side-menu-con" style="margin-top: 50px;">
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
+                            <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5z"/>
+                        </svg>
+                    </div>  
+                    <p>Home</p>
+                </div>
+            </a>
+
+            <a class="text-decoration-none menu-btn" href="">
+                <div class="d-flex justify-content-start side-menu-con">
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-patch-question-fill" viewBox="0 0 16 16">
+                            <path d="M5.933.87a2.89 2.89 0 0 1 4.134 0l.622.638.89-.011a2.89 2.89 0 0 1 2.924 2.924l-.01.89.636.622a2.89 2.89 0 0 1 0 4.134l-.637.622.011.89a2.89 2.89 0 0 1-2.924 2.924l-.89-.01-.622.636a2.89 2.89 0 0 1-4.134 0l-.622-.637-.89.011a2.89 2.89 0 0 1-2.924-2.924l.01-.89-.636-.622a2.89 2.89 0 0 1 0-4.134l.637-.622-.011-.89a2.89 2.89 0 0 1 2.924-2.924l.89.01.622-.636zM7.002 11a1 1 0 1 0 2 0 1 1 0 0 0-2 0zm1.602-2.027c.04-.534.198-.815.846-1.26.674-.475 1.05-1.09 1.05-1.986 0-1.325-.92-2.227-2.262-2.227-1.02 0-1.792.492-2.1 1.29A1.71 1.71 0 0 0 6 5.48c0 .393.203.64.545.64.272 0 .455-.147.564-.51.158-.592.525-.915 1.074-.915.61 0 1.03.446 1.03 1.084 0 .563-.208.885-.822 1.325-.619.433-.926.914-.926 1.64v.111c0 .428.208.745.585.745.336 0 .504-.24.554-.627z"/>
+                        </svg>
+                    </div>  
+                    <p>About</p>
+                </div>
+            </a>
+
+            <a class="text-decoration-none menu-btn" href="">
+                <div class="d-flex justify-content-start side-menu-con">
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-1-circle" viewBox="0 0 16 16">
+                            <path d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M9.283 4.002V12H7.971V5.338h-.065L6.072 6.656V5.385l1.899-1.383z"/>
+                        </svg>
+                    </div>  
+                    <p>Priorities</p>
+                </div>
+            </a>
+
+            <a class="text-decoration-none menu-btn" href="">
+                <div class="d-flex justify-content-start side-menu-con">
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-file-plus" viewBox="0 0 16 16">
+                            <path d="M8.5 6a.5.5 0 0 0-1 0v1.5H6a.5.5 0 0 0 0 1h1.5V10a.5.5 0 0 0 1 0V8.5H10a.5.5 0 0 0 0-1H8.5z"/>
+                            <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2zm10-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1"/>
+                          </svg>
+                    </div>  
+                    <p>Add Card</p>
+                </div>
+            </a>
+
+            <a class="text-decoration-none menu-btn" href="">
+                <div class="d-flex justify-content-start side-menu-con">
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-info" viewBox="0 0 16 16">
+                            <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0"/>
+                          </svg>
+                    </div>  
+                    <p>Technologies</p>
+                </div>
+            </a>
+
+            <a class="text-decoration-none" href="">
+                <div class="d-flex justify-content-start side-menu-con">
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+                          </svg>
+                    </div>  
+                    <p>Github</p>
+                </div>
+            </a>
+                
+        </div>
+    </aside>
+    <div class="container">
+         <div class="row justify-content-start gap-3"> 
+            <div class="col-7 col-md-5 col-lg-5 col-xl-3 mt-3">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body card-container">
+                        <div class="d-flex justify-content-between">
+                            <h5 class="card-title">Todo</h5>      
+                            <button class="btn-outline-purple">+</button>
+                        </div>
+                        <hr>      
+                        <p class="draggable" draggable="true">Hello</p>
+                        <p class="draggable" draggable="true">Hi</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-7 col-md-6 col-xl-3 mt-3">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body card-container">
+                        <div class="d-flex justify-content-between">
+                            <h5 class="card-title">Doing</h5>         
+                            <button class="btn-outline-purple" onclick="addNewParagraph()">+</button>
+                        </div>
+                        <hr>         
+                        <p class="draggable" draggable="true">Good Morning</p>
+                        <p class="draggable" draggable="true">Good Afternoon</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-7 col-md-7 col-lg-5 col-xl-3 mt-3">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body card-container">
+                        <div class="d-flex justify-content-between">
+                            <h5 class="card-title">Done</h5>         
+                            <button class="btn-outline-purple">+</button>
+                        </div>
+                          
+                        <hr>        
+                        <p class="draggable" draggable="true">Greetings</p>
+                        <p class="draggable" draggable="true">Im doing good</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="index2.js"></script>
+
+
+</body>
+</html>
